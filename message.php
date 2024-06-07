@@ -18,7 +18,7 @@
    if(mail($receiver, $subject, $body, $sender)){
     echo "Your message has been sent.";
    }else{
-    echo "Sorry, failed to sand your message!";
+    echo "Sorry, failed to send your message!";
    }
 
   }else{
